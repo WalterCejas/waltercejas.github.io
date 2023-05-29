@@ -1,0 +1,28 @@
+@import "./media-queries.scss";
+
+.banner--gorra {
+    background-image: url(../media/gorra-banner.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+    text-align: center;
+    color: white;
+    padding: 350px;
+    @include tablet{
+        padding: 70px;
+    }
+    @include mobile{
+        padding: 35px;
+    }
+}
+.banner--gorra h1{
+    font-family: 'Libre Franklin', sans-serif;
+}
+a, li{
+    font-family: 'Libre Franklin', sans-serif;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
