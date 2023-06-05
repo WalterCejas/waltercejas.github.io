@@ -8,3 +8,19 @@ h1,h2,h3{
     font-family: 'Oswald';
     text-decoration: none;
 }
+#categorias{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 50px;
+    font-size: 70px;
+}
+#ofertas{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+.contenedor-de-categorias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 150px;
+    padding: 25px;    
+}
+.contenedor-de-categorias2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    gap: 150px;
+    padding: 10px 5px;
+    h1{
+        color: white;
+        text-align: center center;
+        padding: 0px;
+        font-size: 50px;
+    }
+}
+.contenedor-de-ofertas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    gap: 20px;
+    padding: 10px 5px;
+    
+}
+.contenedor-de-ofertas2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 150px;
+    padding: 25px;
+}

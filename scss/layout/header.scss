@@ -56,11 +56,11 @@ header{
             border-radius: 6px;
             transition: .3s;
             }
-        }
         &:hover samp{
         background: none;
         }
         &:active{
         transition: scale(0.9);
         }
+    }
 }
