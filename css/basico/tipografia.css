@@ -28,4 +28,11 @@ h1, h2, h3 {
   justify-content: center;
 }
 
+#productos {
+  color: white;
+  text-align: center center;
+  padding: 0px;
+  font-size: 50px;
+}
+
 /*# sourceMappingURL=tipografia.css.map */

@@ -9,14 +9,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: minmax(80px, auto);
-    gap: 150px;
+    gap: 120px;
     padding: 10px 5px;
-    h1{
-        color: white;
-        text-align: center center;
-        padding: 0px;
-        font-size: 50px;
-    }
 }
 .contenedor-de-ofertas{
     display: grid;

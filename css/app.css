@@ -29,6 +29,13 @@ h1, h2, h3 {
   justify-content: center;
 }
 
+#productos {
+  color: white;
+  text-align: center center;
+  padding: 0px;
+  font-size: 50px;
+}
+
 header {
   display: flex;
   background-color: gray;
@@ -187,14 +194,8 @@ header button:active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: minmax(80px, auto);
-  gap: 150px;
+  gap: 120px;
   padding: 10px 5px;
-}
-.contenedor-de-categorias2 h1 {
-  color: white;
-  text-align: center center;
-  padding: 0px;
-  font-size: 50px;
 }
 
 .contenedor-de-ofertas {
