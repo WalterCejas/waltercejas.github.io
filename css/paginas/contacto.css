@@ -1,0 +1,76 @@
+.contacto {
+  margin: 0;
+}
+.contacto .form {
+  width: 340px;
+  height: 440px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 80px -10px blue;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+  position: relative;
+}
+.contacto .form h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: gray;
+  border-bottom: 3px solid black;
+}
+.contacto .form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Libre Franklin", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid grey;
+}
+.contacto .form input:focus {
+  border-bottom: 2px solid lightblue;
+}
+.contacto .form p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: gray;
+}
+.contacto .form button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Libre Franklin", sans-serif;
+  border: 2px solid gray;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.contacto .form button:hover {
+  background: gray;
+  color: white;
+}
+.contacto .form div {
+  position: absolute;
+  bottom: -5px;
+  right: 0px;
+  background: black;
+  color: white;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px blue;
+}
+.contacto .form span {
+  margin: 0 5px 0 15px;
+}
+
+/*# sourceMappingURL=contacto.css.map */

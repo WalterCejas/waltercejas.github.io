@@ -1,0 +1,96 @@
+#categorias{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.contenedor-de-categorias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 150px;
+    padding: 25px;    
+}
+.gorraarg{
+    display: flex;
+    background-color: white;
+    border-radius: 22px;
+    margin: 15px;
+    padding: 20px 20px;
+    width:300px;
+    border: 0;
+    background-image: linear-gradient(150deg, #FCFCFC,#030303,#FCFCFC);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        background-image: linear-gradient(150deg, #9500ff ,#09f ,#00ddff);
+        padding: 8px 10px;
+        border-radius: 6px;
+        transition: .3s;
+    }
+    img:hover {
+        background: none;
+    }
+    
+    h3{
+        display: flex;
+        justify-content: center;
+        color: blue;
+        text-decoration: none;
+        padding: 15px;
+    }
+}
+.gorraarg:active{
+    transition: scale(0.9);
+}
+.gorraarg::before{
+    content: "";
+    background: -moz-linear-gradient(to bottom right,#9500ff ,#09f ,#00ddff);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transform: translateY(30%) scale(0.85);
+    filter: blur(30PX);
+
+}
+.contenedor-de-categorias2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    gap: 80px;
+    padding: 10px 5px;
+}
+.contenedor-de-ofertas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    gap: 20px;
+    padding: 10px 5px;
+    
+}
+.contenedor-de-ofertas2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 150px;
+    padding: 25px;
+}
+#ofertas{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.video-gorras{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+}
+

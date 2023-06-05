@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap");
+a {
+  font-family: "Libre Franklin";
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald";
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=tipografia.css.map */
